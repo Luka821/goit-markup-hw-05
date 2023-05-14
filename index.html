@@ -51,7 +51,7 @@
     <main>
       <section class="hero">
         <h1 class="hero-title">Effective solutions for your business</h1>
-        <button type="button" class="btn primary">Request our service</button>
+        <button data-modal-open type="button" class="btn primary">Request our service</button>
       </section>
       <section class="section features">
         <div class="container">
@@ -384,5 +384,12 @@
         </section>
       </div>
     </footer>
+    <!-- Modal -->
+    <div class="modal is-hidden" data-modal>
+      <div class="modal-content">
+        <button class="close-btn" data-modal-close type="button"></button>
+      </div>
+    </div>
+    <script src="./modal.js"></script>  
   </body>
 </html>
